@@ -9,6 +9,7 @@ public class LandingPage extends BasePage {
     public final WebDriver webdriver;
 
     public LandingPage(WebDriver webdriver) {
+        super(webdriver);
         this.webdriver = webdriver;
     }
 

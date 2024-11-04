@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class ConfigFileReader {
     private Properties properties;
-    private final String propertyFilePath = ".//.//resources/configuration.properties";
+    private final String propertyFilePath = "src/main/resources/configuration.properties";
 
     public ConfigFileReader() {
         BufferedReader reader;
